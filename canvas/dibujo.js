@@ -4,13 +4,12 @@ var lineas=30;
 var l=0;
 var yi, xf;
 
-while (l<lineas)
+for (l=0; l < lineas; l++)
 {
 	yi= 10 * l;
 	xf = 10 * (l+1);
 	dibujarLinea ("black", 300, yi, xf, 0);
 	dibujarLinea ("#f2d118", 0,yi,xf,300);
-	l++;
 }
 	dibujarLinea("#f2d118", 1, 1, 1, 300);
 	dibujarLinea("#f2d118", 1, 299, 299, 299);
