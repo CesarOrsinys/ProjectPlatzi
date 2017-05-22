@@ -1,0 +1,307 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bka",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "isntal",
+		"selected_items":
+		[
+			[
+				"isntal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Cesar Brito/Documents/00. Cursos/0- Platzi/0 - Programación Básica/primero",
+		"/C/Users/Cesar Brito/Projects/GitFacilito/styles/normalize.css",
+		"/C/Users/Cesar Brito/Projects/GitFacilito/index.html",
+		"/C/Users/Cesar Brito/Projects/GitFacilito/js/parallax.js",
+		"/C/Users/Cesar Brito/Projects/GitFacilito/styles/styles.css",
+		"/C/Users/Cesar Brito/Desktop/Themes/vellum-1.4.1-mfs/Vellum v1.4.1/WordPress/parallelus-vellum/editor-style.css",
+		"/C/Users/Cesar Brito/Desktop/Themes/vellum-1.4.1-mfs/Vellum v1.4.1/WordPress/parallelus-vellum/index.php",
+		"/C/Users/Cesar Brito/AppData/Local/Temp/Rar$DIa0.978/style.css",
+		"/C/Users/Cesar Brito/Desktop/prueba.xpdl",
+		"/C/Users/Cesar Brito/Desktop/Curso/Primera web.html",
+		"/C/Users/Cesar Brito/Desktop/Bitacora/Open House/Web/menu/menu_all.html",
+		"/C/Users/Cesar Brito/Desktop/Bitacora/Open House/Web/menu/folder_close.gif",
+		"/C/Users/Cesar Brito/Desktop/Bitacora/Open House/Web/default.html",
+		"/F/SimpleCampus/SimpleCampus.html",
+		"/F/SimpleCampus/js/settings.js",
+		"/F/SimpleCampus/menu/menu_all.html",
+		"/C/xampp/htdocs/gestiondesites/images/aba.png",
+		"/C/Users/Cesar Brito/AppData/Roaming/Skype/My Skype Received Files/1.Servicio_Ganado_demostración.cp",
+		"/C/Users/Cesar Brito/Downloads/moodle-3.1.1/moodle/auth/index.html",
+		"/C/xampp/htdocs/gestiondesites/index.html",
+		"/C/xampp/htdocs/gestiondesites/css/style.css",
+		"/C/xampp/htdocs/gestiondesites/jquery.easing.1.3.js",
+		"/C/Users/Cesar Brito/AppData/Local/Temp/wp-config.php",
+		"/C/Users/Cesar Brito/Downloads/index.php",
+		"/C/Users/Cesar Brito/Downloads/admin.php",
+		"/C/Users/Cesar Brito/Downloads/wp-config.php",
+		"/C/wamp64/apps/moodle/course/edit.php",
+		"/C/wamp64/apps/moodle/theme/essential/style/essential-alternative.css",
+		"/C/wamp64/apps/moodle/theme/essential/layout/admin.php",
+		"/C/wamp64/apps/moodle/theme/essential/layout/login.php",
+		"/C/wamp64/wampmanager.tpl",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/wamp64/apps/moodle/theme/essential/layout/tiles/header.php",
+		"/C/wamp64/bin/apache/apache2.4.18/conf/httpd.conf",
+		"/C/wamp64/apps/moodle/theme/essential/style/custom.css",
+		"/C/wamp64/apps/moodle/theme/essential/less/essential.less",
+		"/C/wamp64/apps/moodle/admin/settings.php",
+		"/C/wamp64/apps/moodle/theme/essential/essential_admin_setting_configinteger.php",
+		"/C/wamp64/apps/moodle/theme/essential/style/essential.css",
+		"/C/wamp64/apps/moodle/theme/index.php",
+		"/C/wamp64/apps/moodle/theme/essential/style/editor.css",
+		"/C/wamp64/apps/moodle/theme/essential/layout/tiles/twocolumncontent.php",
+		"/C/wamp64/apps/moodle/theme/essential/layout/tiles/pagenavbar.php",
+		"/C/wamp64/apps/moodle/theme/essential/amd/src/header.js",
+		"/C/wamp64/apps/moodle/theme/essential/amd/src/carousel.js",
+		"/C/wamp64/apps/moodle/theme/essential/essential_admin_setting_configtext.php",
+		"/C/wamp64/apps/moodle/theme/jquery.php",
+		"/C/wamp64/apps/moodle/theme/essential/settings.php",
+		"/C/wamp64/apps/moodle/theme/essential/essential_admin_setting_configradio.php",
+		"/C/wamp64/apps/moodle/theme/essential/essential_admin_setting_styleguide.php",
+		"/C/wamp64/apps/moodle/theme/essential/classes/format_weeks_renderer.php",
+		"/C/wamp64/apps/moodle/theme/essential/classes/toolbox.php",
+		"/C/wamp64/apps/moodle/index.php",
+		"/C/wamp64/apps/moodle/theme/essential/layout/frontpage.php",
+		"/C/wamp64/apps/moodle/theme/essential/essential_admin_setting_configselect.php",
+		"/C/wamp64/apps/moodle/theme/essential/config.php",
+		"/C/wamp64/apps/moodle/theme/essential/inspector.ajax.php",
+		"/C/wamp64/apps/moodle/theme/essential/classes/format_columns_renderer.php",
+		"/C/wamp64/apps/moodle/theme/essential/classes/format_grid_renderer.php",
+		"/C/wamp64/apps/moodle/theme/essential/classes/format_noticebd_renderer.php",
+		"/C/wamp64/apps/moodle/theme/essential/classes/format_renderer_toolbox.php",
+		"/C/wamp64/apps/moodle/theme/essential/classes/format_topcoll_renderer.php",
+		"/C/wamp64/apps/moodle/theme/essential/classes/format_topics_renderer.php",
+		"/C/wamp64/apps/moodle/theme/essential/layout/tiles/slideshow.php",
+		"/C/wamp64/apps/moodle/theme/essential/style/essential-scrollbars.css",
+		"/C/wamp64/apps/moodle/theme/essential/style/essential-settings.css",
+		"/C/wamp64/apps/moodle/theme/styles.php",
+		"/C/wamp64/apps/moodle/theme/essential/pages/styleguide.php",
+		"/C/wamp64/apps/moodle/theme/essential/layout/tiles/pagesettings.php",
+		"/C/wamp64/apps/moodle/theme/essential/style/bootstrap-pix.css",
+		"/C/wamp64/apps/moodle/theme/essential/layout/columns1.php",
+		"/C/wamp64/apps/moodle/theme/essential/layout/columns3.php",
+		"/C/wamp64/apps/moodle/theme/essential/layout/columns2.php",
+		"/C/wamp64/apps/moodle/theme/essential/layout/tiles/middleblocks.php",
+		"/C/wamp64/www/moodle/config.php",
+		"/C/xampp/php/php.ini",
+		"/C/wamp64/alias/phpmyadmin.conf",
+		"/C/wamp/alias/phpmyadmin.conf",
+		"/C/xampp/htdocs/web/css/style.css",
+		"/C/xampp/htdocs/web/index.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Cesar Brito\\Desktop\\Bitacora\\Open House\\Web",
+			"F:\\SimpleCampus",
+			"C:\\wamp64\\apps\\moodle",
+			"C:\\wamp64\\apps\\moodle\\theme\\essential",
+			"C:\\wamp64\\apps\\moodle",
+			"C:\\wamp64\\apps\\moodle\\theme\\essential",
+			"C:\\wamp64\\apps\\moodle\\theme\\essential\\classes",
+			"C:\\wamp64\\apps\\moodle"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"var concat = \"\"",
+			"concat",
+			"https://es.boc-group.com",
+			"http://www.boc-group.com",
+			"ADONIS:CE HTML",
+			"http://www.boc-group.com",
+			"<a id=\"externalLink\" href=\"http://www.boc-group.com\" target=\"_new\"></a>",
+			"footer",
+			"http://www.boc-group.com",
+			"yacambu",
+			"venalca",
+			"yui_3_17_2_1_1472222936504_834",
+			"get_title",
+			"yui_3_17_2_1_1471523777193_1868",
+			"universap",
+			"floatingsubmit",
+			"1471523755",
+			"esse",
+			"1471",
+			"custom_menu_language",
+			"page width",
+			"pagewidth",
+			"pagewi",
+			"setting",
+			"pagewidth",
+			"span14",
+			"span",
+			"pagewidth",
+			"slide",
+			"max_ex",
+			"venta",
+			"natulac",
+			"regis",
+			"to_",
+			"sign",
+			"submit",
+			"sumit",
+			"soporte",
+			"bsolucion",
+			"soporte"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "primero.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 411.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
