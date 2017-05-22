@@ -16,22 +16,23 @@
 		var peso = parseFloat(usuario);
 		var planeta = prompt("¿En qué planeta quiere ver su peso? \n 1. Marte \n 2. Jupiter");
 		var planeta = parseInt(planeta);
+		var planetas;
 		if ( planeta === 1)
 			{
 				peso_final = peso * g_marte / g_tierra;
-				planeta = "Marte";
+				planetas = "Marte";
 			}
 		else if (planeta === 2)
 			{
 				peso_final = peso * g_jupiter / g_tierra;
-				planeta="Jupiter";
+				planetas ="Jupiter";
 			}
 		else 
 			{
 				peso_final=200000000;
-				planeta="Kripton";
+				planetas ="Kripton";
 			}
-				document.write("Tu peso en " + planeta + " es: "  + '<strong>' + peso_final.toFixed(2) + '</strong>'+ " kilos" );
+				document.write("Tu peso en " + planetas + " es: "  + '<strong>' + peso_final.toFixed(2) + '</strong>'+ " kilos" );
 		
 		
 		</script>
